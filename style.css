@@ -1,0 +1,196 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+  font-family: 'Sofia';
+  padding: 0px;
+  margin: 0px;
+}
+h1 {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+p{
+  font-size: 20px;
+}
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+  position: relative;
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg-1, .col-lg-2, .col-lg-3 {
+    float: left;
+    position: relative;
+    border: 3px solid black;
+    height: 150px;
+    position: relative;
+  }
+  .p1{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: lightpink;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .p2{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: salmon;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+  }
+  .p3 {
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    position:absolute;
+    background-color: palegoldenrod;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .col-lg-1 {
+    width: 33.33%;
+  }
+  .col-lg-2 {
+    width: 66.66%;
+  }
+  .col-lg-3 {
+    width: 100%;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3 {
+    float: left;
+    position:relative;
+    border: 3px solid black;
+    background-color: gray;
+    height: 200px;
+    padding: 10px;
+    padding-top:50px;
+    margin:20px;
+    overflow: auto;
+  }
+  .p1{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: lightpink;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .p2{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: salmon;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+  }
+  .p3 {
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    position:absolute;
+    background-color: palegoldenrod;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .col-md-1 {
+    width: 45%;
+  }
+  .col-md-2 {
+    width: 45%;
+  }
+  .col-md-3 {
+    width: 94.5%;
+  }
+}
+@media (max-width: 767px) {
+  .col-sl-1, .col-sl-2, .col-sl-3 {
+    float: right;
+    position: relative;
+    border: 3px solid black;
+    background-color: gray;
+    padding: 10px;
+    padding-top: 50px;
+    height: 200px;
+    margin:20px;
+    overflow: auto;
+  }
+  .p1{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: lightpink;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .p2{
+    border: 2px  solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: salmon;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px;
+  }
+  .p3 {
+    border: 2px solid black;
+    border-top: 0px;
+    border-right: 0px;
+    background-color: palegoldenrod;
+    text-align: center;
+    position: absolute;
+    width:150px;
+    height: 40px;
+    top: 0px;
+    right: 0px
+  }
+  .col-sl-1 {
+    width: 95%;
+  }
+  .col-sl-2 {
+    width: 95%;
+  }
+  .col-sl-3 {
+    width: 95%;
+  }
+}
