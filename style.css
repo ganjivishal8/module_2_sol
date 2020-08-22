@@ -5,6 +5,9 @@
   padding: 0px;
   margin: 0px;
 }
+body{
+  margin-left:20px;
+}
 h1 {
   text-align: center;
   font-size: 30px;
