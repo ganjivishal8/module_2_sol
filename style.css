@@ -28,8 +28,13 @@ p{
     float: left;
     position: relative;
     border: 3px solid black;
-    height: 150px;
     position: relative;
+    background-color: gray;
+    height: 200px;
+    padding: 10px;
+    padding-top:50px;
+    margin:20px;
+    overflow: auto;
   }
   .p1{
     border: 2px  solid black;
